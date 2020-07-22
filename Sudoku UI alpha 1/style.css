@@ -1,0 +1,29 @@
+body {
+    box-sizing: border-box;
+    background: rgb(31, 32, 32);
+    color: wheat;
+}
+
+.cell {
+    height: 40px;
+    width: 40px;
+    border: 1px solid wheat;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.board {
+    /* border: 2px solid black; */
+    width: max-content;
+}
+
+.block {
+    /* border: 2px solid black; */
+    display: inline-block;
+}
+
+.subrow {
+    display: inline-flexbox;
+}
